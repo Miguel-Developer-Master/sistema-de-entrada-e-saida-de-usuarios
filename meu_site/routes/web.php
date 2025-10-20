@@ -6,7 +6,7 @@ Route::get('/cadastracao', function () {
     return view('cadastracao');
 });
 
-Route::get('/cadastracaooulogin', function () {
+Route::get('/cdouli', function () {
     return view('cdouli');
 });
 
