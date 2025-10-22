@@ -4,12 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/cadastracao', function () {
     return view('cadastracao');
-});
-
-Route::get('/cdouli', function () {
-    return view('cdouli');
-});
+})->name('cadastramento');
 
 Route::get('/login', function () {
     return view('login');
-});
+})->name('login');
