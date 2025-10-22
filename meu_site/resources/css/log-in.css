@@ -1,0 +1,160 @@
+/* Reset e base tipográfica */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  border-bottom: 1px solid #222;
+}
+
+.header__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Layout principal */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.register-section {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Formulário */
+.register-form {
+  background: #0a0a0a;
+  border: 1px solid #222;
+  border-radius: 14px;
+  padding: 2.5rem;
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.04);
+  transition: box-shadow 0.3s ease;
+}
+
+.register-form:hover {
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.06);
+}
+
+.form__legend {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.form__group {
+  margin-bottom: 1.5rem; /* mais espaço entre os inputs */
+}
+
+.form__label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  color: #ddd;
+}
+
+.form__input {
+  width: 100%;
+  padding: 1rem; /* mais espaçamento interno */
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #111;
+  color: #fff;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #fff;
+  background-color: #181818;
+}
+
+/* Botão */
+.form__button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.form__button:hover {
+  background-color: #e6e6e6;
+}
+
+.form__button:active {
+  transform: scale(0.98);
+}
+
+.form__message {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #222;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__link-text {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.form__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.form__link:hover {
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
