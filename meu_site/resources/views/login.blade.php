@@ -32,7 +32,7 @@
 
           <p class="form__link-text">
             Não tem uma conta?
-            <a href="/cadastracao" class="form__link">Cadastre-se aqui</a>
+            <a href="/" class="form__link">Cadastre-se aqui</a>
         </fieldset>
       </form>
     </section>
