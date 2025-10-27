@@ -2,14 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/cadastracao', function () {
+Route::get('/', function () {
     return view('cadastracao');
-});
-
-Route::get('/cadastracaooulogin', function () {
-    return view('cdouli');
-});
+})->name('cadastramento');
 
 Route::get('/login', function () {
     return view('login');
-});
+})->name('login');
